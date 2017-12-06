@@ -1,0 +1,26 @@
+{% if page.author %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  {% if author.avatar contains 'http' %}
+	<img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }} bio photo">
+{% else %}
+	<img src="{{ site.url }}/images/{{ author.avatar }}" class="author__avatar" alt="{{ author.name }} bio photo">
+{% endif %}
+
+
+  <h3 itemprop="name">{{ author.name }}</h3>
+  <p>{{ author.bio }}</p>
+  <h3 itemprop="Online">Online</h3>
+  {% if author.linkedin %}<a href="http://linkedin.com/in/{{ author.linkedin }}" class="author__urls-wrapper" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>{% endif %}
+  {% if author.github %}<a href="http://github.com/{{ author.github }}" class="author__urls-wrapper" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>{% endif %}
+  {% if author.stackoverflow %}<a href="http://stackoverflow.com/users/{{ author.stackoverflow }}" class="author__urls-wrapper" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i> Stackoverflow</a>{% endif %}
+  {% if author.technet %}<a href="{{ author.technet }}" class="author__urls-wrapper" target="_blank"><i class="fa fa-fw fa-windows"></i> TechNet</a>{% endif %}
+  <br />
+  <h3 itemprop="GitHub">GitHub Repos</h3>
+  {% for repo in author.githubrepos %}
+    <a href="https://github.com/pm091/{{ repo }}" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i>{{ repo }}</a><br />
+  {% endfor %}
+</div>
