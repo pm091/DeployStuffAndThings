@@ -15,7 +15,7 @@ name                     : "PM091"
 description              : ""
 url                      : "http://deploystuffandthings.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "pm091/pm091.github.io"
+repository               : "pm091/DeployStuffAndThings"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -114,10 +114,10 @@ author:
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
   githubrepos: [
+         "Get-MacVendor"
          "Powershell",
          "PowerSDP",
-         "PSAdmin",
-         "pm091.github.io"]
+         "PSAdmin",]
 
 # Reading Files
 include:
