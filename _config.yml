@@ -114,7 +114,7 @@ author:
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
   githubrepos: [
-         "Get-MacVendor"
+         "Get-MacVendor",
          "Powershell",
          "PowerSDP",
          "PSAdmin",]
