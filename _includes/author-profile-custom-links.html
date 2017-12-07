@@ -1,7 +1,8 @@
-<!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
-      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
+<li itemprop="GitHub">Repos</li>
+{% for repo in author.githubrepos %}
+<li>
+  <a href="https://github.com/pm091/{{ repo }}" itemprop="sameAs">
+    <i class="fa fa-fw fa-github"></i>{{ repo }}
+  </a>
   </li>
--->
+{% endfor %}
