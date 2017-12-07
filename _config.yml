@@ -84,7 +84,7 @@ analytics:
 # Site Author
 author:
   name             : "PM091"
-  avatar           : /assets/images/bio.png
+  avatar           : assets/images/bio.png
   bio              : "Deploying Stuff and things with MDT and Powershell also other stuff"
   location         : #"Somewhere"
   email            :
