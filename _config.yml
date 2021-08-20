@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 # Site Settings
-remote_theme: pages-themes/hacker@v0.2.0
+remote_theme             : pages-themes/hacker@v0.2.0
 locale                   : "en"
 title                    : "Deploy stuff and things"
 title_separator          : "-"
