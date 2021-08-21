@@ -115,9 +115,9 @@ author:
   youtube          : 
   githubrepos: [
          "Get-MacVendor",
-         "Powershell",
+         "Get-GeoIP",
          "PowerSDP",
-         "PSAdmin",]
+         "PowerHive",]
 
 # Reading Files
 include:
