@@ -4,8 +4,10 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
+
 # Site Settings
-remote_theme             : pages-themes/hacker@v0.2.0
 locale                   : "en"
 title                    : "Deploy stuff and things"
 title_separator          : "-"
@@ -189,7 +191,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -198,7 +199,6 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -256,6 +256,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-
-theme: jekyll-theme-hacker
