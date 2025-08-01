@@ -76,9 +76,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" #false  false (default),, "google-universal", "custom"
+  provider               :  #"google-universal" #false  false (default),, "google-universal", "custom"
   google:
-    tracking_id          : "UA-108160900-1"
+    tracking_id          : #"UA-108160900-1"
 
 
 # Site Author
@@ -106,7 +106,6 @@ author:
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : 
-  technet          : "https://social.technet.microsoft.com/profile/pm091"
   tumblr           :
   twitter          :
   vine             :
